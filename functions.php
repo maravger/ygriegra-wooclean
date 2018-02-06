@@ -11,7 +11,7 @@ function wooclean_child_enqueue_styles() {
 	wp_enqueue_style( 'bootstrap-style', get_stylesheet_directory_uri() . '/css/bootstrap.min.css' );
 	wp_enqueue_style( 'font-awesome', get_template_directory_uri() . '/css/font-awesome.min.css' );
 	//wp_enqueue_style( 'style', get_template_directory_uri() . '/style.css' );
-	wp_enqueue_style( 'responsive', get_template_directory_uri() . '/responsive.css' );
+	wp_enqueue_style( 'responsive', get_stylesheet_directory_uri() . '/responsive.css' );
 	wp_enqueue_style( 'custom-style', get_template_directory_uri() . '/css/custom-style.css' );
 
 // REMEMBER TO ENQUEUE CUSTOM SCRIPTS FROM PARENT

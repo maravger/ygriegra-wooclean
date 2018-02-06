@@ -381,7 +381,9 @@ var {
   /*right: 90px;*/
   position: relative;
   /*float: right;*/
-  float: left;
+  /*float: left;*/
+  float: none;
+  margin: 0 auto;
 }
 .header {
   /*padding: 62px 0;*/
@@ -401,20 +403,20 @@ var {
   float: left;
   padding-left: 109px;
   padding-top: 214px;
-  -webkit-transition: 0.1s linear;
-  -moz-transition: 0.1s linear;
-  -ms-transition: 0.1s linear;
-  -o-transition: 0.1s linear;
-  transition: 0.1s linear;
+  -webkit-transition: 0.15s linear;
+  -moz-transition: 0.15s linear;
+  -ms-transition: 0.15s linear;
+  -o-transition: 0.15s linear;
+  transition: 0.15s linear;
 }
 
 .header-nav.fixed-header-nav {
   padding-top: 0px;
-  -webkit-transition: 0.1s linear;
-  -moz-transition: 0.1s linear;
-  -ms-transition: 0.1s linear;
-  -o-transition: 0.1s linear;
-  transition: 0.1s linear;
+  -webkit-transition: 0.051s linear;
+  -moz-transition: 0.051s linear;
+  -ms-transition: 0.051s linear;
+  -o-transition: 0.051s linear;
+  transition: 0.051s linear;
 }
 
 .header-nav li {
