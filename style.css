@@ -377,14 +377,19 @@ var {
   left: 170px;
   top: 0;
 }
+
 .header .navbar-collapse.collapse {
-  /*right: 90px;*/
   position: relative;
-  /*float: right;*/
-  /*float: left;*/
+  /*padding-top: 214px;*/
   float: none;
   margin: 0 auto;
+  text-align: center;
 }
+
+/*.header .navbar-collapse.collapse .fixed-navbar{
+  padding-top: 0px;
+}*/
+
 .header {
   /*padding: 62px 0;*/
   padding: 50px 0;
@@ -401,23 +406,32 @@ var {
 
 .header-nav {
   float: left;
-  padding-left: 109px;
-  padding-top: 214px;
-  -webkit-transition: 0.15s linear;
-  -moz-transition: 0.15s linear;
-  -ms-transition: 0.15s linear;
-  -o-transition: 0.15s linear;
-  transition: 0.15s linear;
+  /*padding-left: 109px;
+  padding-top: 214px;*/
 }
 
-.header-nav.fixed-header-nav {
+/*.header-nav.fixed-header-nav {
   padding-top: 0px;
-  -webkit-transition: 0.051s linear;
-  -moz-transition: 0.051s linear;
-  -ms-transition: 0.051s linear;
-  -o-transition: 0.051s linear;
-  transition: 0.051s linear;
+}*/
+
+/*.header-navigation {
+  -webkit-transition: padding-top 10.2s;
+  -moz-transition: padding-top 10.2s;
+  transition: padding 10.2s;
+  -webkit-transition: 10.2s linear;
+  -moz-transition: 10.2s linear;
+  -ms-transition: 10.2s linear;
+  -o-transition: 10.2s linear;
+  transition: 10.2s linear;
 }
+
+.header-navigation.fixed-navigation{
+  -webkit-transition: 10.3s linear;
+  -moz-transition: 10.3s linear;
+  -ms-transition: 10.3s linear;
+  -o-transition: 10.3s linear;
+  transition: 10.3s linear;
+}*/
 
 .header-nav li {
   display: inline-block;
@@ -790,14 +804,14 @@ var {
   z-index: 1000;
   /*height: 170px;*/
   height: 310px;
-  -webkit-transition: height 0.1s;
-  -moz-transition: height 0.1s;
-  transition: height 0.1s;
-  -webkit-transition: 0.1s linear;
-  -moz-transition: 0.1s linear;
-  -ms-transition: 0.1s linear;
-  -o-transition: 0.1s linear;
-  transition: 0.1s linear;
+/*  -webkit-transition: height 0.2s;
+  -moz-transition: height 0.2s;
+  transition: height 0.2s;
+  -webkit-transition: 0.2s linear;
+  -moz-transition: 0.2s linear;
+  -ms-transition: 0.2s linear;
+  -o-transition: 0.2s linear;
+  transition: 0.2s linear;*/
 }
 .header.fixed-header {
   /*height: 100px;*/
@@ -806,11 +820,11 @@ var {
   box-shadow: 0 1px 10px 0 rgb(210, 201, 211);
   /*background-color: #fff;*/
   background-color: rgb(210, 201, 211);
-  -webkit-transition: 0.1s linear;
-  -moz-transition: 0.1s linear;
-  -ms-transition: 0.1s linear;
-  -o-transition: 0.1s linear;
-  transition: 0.1s linear;
+/*  -webkit-transition: 0.3s linear;
+  -moz-transition: 0.3s linear;
+  -ms-transition: 0.3s linear;
+  -o-transition: 0.3s linear;
+  transition: 0.3s linear;*/
 }
 
 /*=====  End of Style Header  ======*/

@@ -4,18 +4,18 @@
     =            Fixed Header            =
     ====================================*/
 
-    var shrinkHeader = 80;
+    var shrinkHeader = 20;
     $( window ).scroll( function() {
       var scroll = getCurrentScroll();
       if ( scroll >= shrinkHeader ) {
         $( '.header' ).addClass( 'fixed-header' );
-        $( '.header-nav' ).addClass( 'fixed-header-nav' );
-        $( '.header .site-logo img' ).fadeOut( 100 );
+        $( '.header-navigation ' ).addClass( 'fixed-navigation' );
+        $( '.header .site-logo img' ).fadeOut( 0 );
       }
       else {
         $( '.header' ).removeClass( 'fixed-header' );
-        $( '.header-nav' ).removeClass( 'fixed-header-nav' );
-        $( '.header .site-logo img' ).fadeIn( 200 );
+        $( '.header-navigation ' ).removeClass( 'fixed-navigation' );
+        $( '.header .site-logo img' ).fadeIn( 0 );
       }
     } );
     function getCurrentScroll() {
