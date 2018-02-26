@@ -176,6 +176,7 @@ h2 {
   color: #000;
   text-transform: uppercase;
   margin-bottom: 25px;
+  font-family: Agorasansbold;
 }
 p {
   font-size: 16px;
@@ -185,6 +186,11 @@ p {
   margin-bottom: 15px;
   -ms-word-wrap: break-word;
   word-wrap: break-word;
+  font-family: Agorasans;
+}
+p.whitetext {
+  font-size: 24px;
+  font-family: Agorasansbold;
 }
 a {
   text-decoration: none;
@@ -4884,4 +4890,14 @@ input {
 }
 /*=====  End of Fixed IE 9  ======*/
 
+@font-face {
+    font-family: Agorasans;  
+    src: url(http://avgr-wordpress.dev/wp-content/themes/wooclean-child/fonts/PFAGORASANSPRO-THIN.TTF);  
+    font-weight: normal;  
+}
 
+@font-face {
+    font-family: Agorasansbold;  
+    src: url(http://avgr-wordpress.dev/wp-content/themes/wooclean-child/fonts/PFAGORASANSPRO-BOLD.TTF);  
+    font-weight: normal;  
+}
