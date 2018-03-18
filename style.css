@@ -4744,7 +4744,8 @@ input {
   background-color: #f10;
 }
 .footer {
-  background-color: rgb(210, 201, 211);
+	border-top: 1px solid #383838;
+  	background-color: rgb(228, 177, 151, 0.83);
     /*background-color: #262626;*/
 }
 .footer .footer-main {
@@ -4792,7 +4793,7 @@ input {
   padding-bottom: 31px;
 }
 .footer-copyright > .container:before {
-  border-top: 1px solid #383838;
+  /*border-top: 1px solid #383838;*/
   display: inline-block;
   width: 100%;
   padding-top: 31px;
