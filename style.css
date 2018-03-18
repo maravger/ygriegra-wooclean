@@ -169,7 +169,7 @@ img {
 ====================================*/
 body {
   font-family: 'Roboto Condensed', sans-serif !important;
-  background-color: rgb(210, 201, 211, 0.5);
+  background-color: rgb(255, 255, 255, 1);
 }
 h2 {
   font-size: 24px;
@@ -400,7 +400,7 @@ var {
   /*padding: 62px 0;*/
   padding: 50px 0;
   /*background-color: #fff;*/
-  background-color: rgb(210, 201, 211);
+  background-color: rgb(255, 255, 255);
 }
 
 .header .site-logo img {
@@ -444,7 +444,7 @@ var {
   position: relative;
   padding: 15px 20px;
   /*background: #fff;*/
-  background: rgb(210, 201, 211);
+  background: rgb(255, 255, 255);
   cursor: pointer;
   -webkit-transition: all 0.2s;
   -moz-transition: all 0.2s;
@@ -454,10 +454,12 @@ var {
 }
 .header-nav li a {
   /*color: #808080;*/
-  color: #fff;
+  color: #000;
   font-size: 16px;
   font-weight: 300;
-  text-transform: uppercase;
+  font-family: Agorasans; 
+  /*text-transform: uppercase;*/
+  text-transform: capitalize;
   -webkit-transition: 0.5s linear;
   -moz-transition: 0.5s linear;
   -ms-transition: 0.5s linear;
@@ -695,7 +697,7 @@ var {
 .site-content {
   margin-bottom: 70px;
   /*margin-top: 170px;*/
-  margin-top: 280px;
+  margin-top: 180px;
   /*background-color: rgb(210, 201, 211, 0.5);*/
 }
 .header-search {
@@ -809,7 +811,7 @@ var {
   width: 100%;
   z-index: 1000;
   /*height: 170px;*/
-  height: 310px;
+  height: 230px;
 /*  -webkit-transition: height 0.2s;
   -moz-transition: height 0.2s;
   transition: height 0.2s;
@@ -823,9 +825,9 @@ var {
   /*height: 100px;*/
   height: 90px;
   padding: 40px 0;
-  box-shadow: 0 1px 10px 0 rgb(210, 201, 211);
+  box-shadow: 0 1px 10px 0 rgb(255, 255, 255);
   /*background-color: #fff;*/
-  background-color: rgb(210, 201, 211);
+  background-color: rgb(255, 255, 255);
 /*  -webkit-transition: 0.3s linear;
   -moz-transition: 0.3s linear;
   -ms-transition: 0.3s linear;
