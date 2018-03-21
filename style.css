@@ -4893,6 +4893,21 @@ input {
 }
 /*=====  End of Fixed IE 9  ======*/
 
+/*footer menu*/
+.bottomMenu { display: block; width:960px;}
+.bottomMenu ul { display:inline; float:right;}
+.bottomMenu li { list-style-type: none; display: inline; font-size: 12px; }
+.bottomMenu li a {
+  color:#000;
+  line-height:15px;
+  text-decoration:none;
+  font-weight:normal;
+  border-right: thin solid #000;
+  padding: 0 7px 0 3px;
+}
+.bottomMenu li a:hover { color:#ccc; text-decoration:underline;}
+.bottomMenu li:last-child > a {border-right: none;} /* remove pipe from last item */
+
 @font-face {
     font-family: Agorasans;  
     src: url(http://avgr-wordpress.dev/wp-content/themes/wooclean-child/fonts/PFAGORASANSPRO-THIN.TTF);  

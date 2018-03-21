@@ -4,7 +4,7 @@
     =            Fixed Header            =
     ====================================*/
 
-    var shrinkHeader = 20;
+    var shrinkHeader = 200;
     $( window ).scroll( function() {
       var scroll = getCurrentScroll();
       if ( scroll >= shrinkHeader ) {

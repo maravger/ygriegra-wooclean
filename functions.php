@@ -5,7 +5,7 @@ function wooclean_child_enqueue_styles() {
 
     //wp_enqueue_style( $parent_style, get_template_directory_uri() . '/style.css' );
 
-
+    //require_once( get_stylesheet_directory() . '/footer.php' );
 // get_template_directory_uri() , this equals the parent folder
 // get_stylesheet_directory_uri() this would equal the child folder
 	wp_enqueue_style( 'bootstrap-style', get_stylesheet_directory_uri() . '/css/bootstrap.min.css' );
