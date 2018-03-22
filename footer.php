@@ -6,12 +6,17 @@
  *
  */
 ?>
-
 	</div><!-- End #content .site-content -->
 	<footer class="footer">
 		
 		<div class="footer-main">
 			<div class="container">
+				<div class="bottomMenu">
+              		<?php wp_nav_menu( array( 'theme_location' => 'bottom-menu' ) ); ?>  
+    			</div>
+    			<div class="bottom-insta">
+							<img src="<?php echo esc_url( XCLEAN_IMAGES . '/search.png' ); ?>" alt="img-search">
+				</div>
 				<div class="row">
 
 						<div class="col-md-4">
@@ -39,11 +44,8 @@
 				?>
 
 			</div><!-- End .container -->
-		</div><!-- End .footer-main -->	
-		
-		<div class="bottomMenu">
-              <?php wp_nav_menu( array( 'theme_location' => 'secondary' ) ); ?>  
-    	</div>
+		</div><!-- End .footer-main -->
+
 		<div class="footer-copyright">
 			<div class="container">
 				<div class="row">

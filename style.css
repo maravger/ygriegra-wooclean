@@ -4750,7 +4750,8 @@ input {
 }
 .footer .footer-main {
   /*padding: 32px 0px;*/
-    padding: 32px 40px;
+    /*padding: 32px 40px;*/
+    padding: 12px 40px;
 
 }
 .footer .footer-main .footer-widget .textwidget img {
@@ -4893,20 +4894,43 @@ input {
 }
 /*=====  End of Fixed IE 9  ======*/
 
-/*footer menu*/
-.bottomMenu { display: block; width:960px;}
-.bottomMenu ul { display:inline; float:right;}
-.bottomMenu li { list-style-type: none; display: inline; font-size: 12px; }
+/*footer (bottom) menu*/
+.bottomMenu { 
+  display: inline-block; 
+  /*width:960px;*/
+  /*position: relative;*/
+}
+.bottomMenu ul { 
+  display:inline; 
+  float:right;
+}
+.bottomMenu li { 
+  list-style-type: none; 
+  display: inline-block; 
+  position: relative;
+  padding: 15px 10px;
+}
 .bottomMenu li a {
-  color:#000;
+  color:#fff;
+  font-family: Agorasans;
+  font-size: 16px; 
+  font-weight: 300;
   line-height:15px;
   text-decoration:none;
-  font-weight:normal;
-  border-right: thin solid #000;
+  /*border-right: thin solid #000;*/
   padding: 0 7px 0 3px;
 }
-.bottomMenu li a:hover { color:#ccc; text-decoration:underline;}
-.bottomMenu li:last-child > a {border-right: none;} /* remove pipe from last item */
+.bottomMenu li a:hover { 
+  /*color:#ccc; */
+  text-decoration:underline;
+}
+.bottomMenu li:last-child > a {
+  border-right: none;
+} /* remove pipe from last item */
+.bottom-insta {
+  display:inline-block; 
+  /*padding: 15px 10px;*/
+}
 
 @font-face {
     font-family: Agorasans;  

@@ -35,6 +35,12 @@ function wpse_enqueue_page_template_styles() {
         wp_enqueue_style( 'cleanpage-template', get_stylesheet_directory_uri() . '/css/cleanpage-template.css' );
     }
 }
+
+function register_my_menu() {
+  register_nav_menu('bottom-menu',__( 'Bottom Menu' ));
+}
+
+add_action( 'init', 'register_my_menu' );
 add_action( 'wp_enqueue_scripts', 'wpse_enqueue_page_template_styles' );
 
 ?>
