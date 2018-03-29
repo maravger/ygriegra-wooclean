@@ -2893,8 +2893,8 @@ article.post .entry-inside a {
  *  http://www.owlgraphic.com/owlcarousel/
  *
  *  Licensed under MIT
- * 	Core Owl Carousel CSS File
- *	v1.3.3
+ *  Core Owl Carousel CSS File
+ *  v1.3.3
  */
 .owl-carousel {
   display: none;
@@ -2961,8 +2961,8 @@ article.post .entry-inside a {
  *  http://www.owlgraphic.com/owlcarousel/
  *
  *  Licensed under MIT
- * 	Owl Carousel Owl Demo Theme 
- *	v1.3.3
+ *  Owl Carousel Owl Demo Theme 
+ *  v1.3.3
  */
 .owl-theme .owl-controls {
   margin-top: 10px;
@@ -4744,14 +4744,14 @@ input {
   background-color: #f10;
 }
 .footer {
-	border-top: 1px solid #383838;
-  	background-color: rgb(228, 177, 151, 0.83);
+  border-top: 1px solid #383838;
+  background-color: rgb(228, 177, 151, 0.83);
     /*background-color: #262626;*/
 }
 .footer .footer-main {
   /*padding: 32px 0px;*/
     /*padding: 32px 40px;*/
-    padding: 12px 40px;
+  padding: 12px 40px;
 
 }
 .footer .footer-main .footer-widget .textwidget img {
@@ -4927,19 +4927,56 @@ input {
 .bottomMenu li:last-child > a {
   border-right: none;
 } /* remove pipe from last item */
-.bottom-insta {
-  display:inline-block; 
-  /*padding: 15px 10px;*/
+
+.bottomButton {
+  display: block !important;
+  height: auto !important;
+  position: relative;
+  float: right;
+  margin: 0 auto;
+  text-align: center;
+  width: 250px;
+  padding-top: 5px;
+}
+
+.button1 {
+    background-color: rgb(228, 177, 151);
+    border: 1px solid white;
+    color: white;
+    padding: 8px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-family: Agorasans; 
+    /*font-weight: 600;*/
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.button2 {
+    background-color: rgb(199, 210, 209);
+    border: none;
+    color: white;
+    padding: 8px 44px;
+    text-align: center;
+    text-decoration: none;
+    font-family: Agorasans; 
+    /*font-weight: 600;*/
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
 }
 
 @font-face {
     font-family: Agorasans;  
-    src: url(http://avgr-wordpress.dev/wp-content/themes/wooclean-child/fonts/PFAGORASANSPRO-THIN.TTF);  
+    src: url(https://www.ygriega.test/wp-content/themes/wooclean-child/fonts/PFAGORASANSPRO-THIN.TTF);  
     font-weight: normal;  
 }
 
 @font-face {
     font-family: Agorasansbold;  
-    src: url(http://avgr-wordpress.dev/wp-content/themes/wooclean-child/fonts/PFAGORASANSPRO-BOLD.TTF);  
+    src: url(https://www.ygriega.test/wp-content/themes/wooclean-child/fonts/PFAGORASANSPRO-BOLD.TTF);  
     font-weight: normal;  
 }

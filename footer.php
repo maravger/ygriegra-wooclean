@@ -11,12 +11,13 @@
 		
 		<div class="footer-main">
 			<div class="container">
+				<!-- <div class="row"> -->
 				<div class="bottomMenu">
               		<?php wp_nav_menu( array( 'theme_location' => 'bottom-menu' ) ); ?>  
     			</div>
-    			<div class="bottom-insta">
-							<img src="<?php echo esc_url( XCLEAN_IMAGES . '/search.png' ); ?>" alt="img-search">
-				</div>
+    			<div class="bottomButton">
+    				<button class="button1">Stay in touch!</button>
+    			</div>	
 				<div class="row">
 
 						<div class="col-md-4">
@@ -36,6 +37,9 @@
 					<?php endif; ?>
 
 				</div><!-- End .row -->
+				<div class="bottomButton">
+    				<button class="button2">Subscribe</button>
+    			</div>	
 
 				<?php 
 					if ( is_active_sidebar( 'footer-sidebar-3' ) ) {
