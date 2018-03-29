@@ -398,7 +398,7 @@ var {
 
 .header {
   /*padding: 62px 0;*/
-  padding: 50px 0;
+  padding: 30px 0;
   /*background-color: #fff;*/
   background-color: rgb(255, 255, 255);
 }
@@ -811,7 +811,7 @@ var {
   width: 100%;
   z-index: 1000;
   /*height: 170px;*/
-  height: 230px;
+  height: 200px;
 /*  -webkit-transition: height 0.2s;
   -moz-transition: height 0.2s;
   transition: height 0.2s;
