@@ -176,7 +176,7 @@ h2 {
   color: #000;
   text-transform: uppercase;
   margin-bottom: 25px;
-  font-family: Agorasansbold;
+  font-family: Cream;
 }
 p {
   font-size: 16px;
@@ -186,11 +186,11 @@ p {
   margin-bottom: 15px;
   -ms-word-wrap: break-word;
   word-wrap: break-word;
-  font-family: Agorasans;
+  font-family: Cream;
 }
 p.whitetext {
   font-size: 24px;
-  font-family: Agorasansbold;
+  font-family: Cream;
 }
 a {
   text-decoration: none;
@@ -204,6 +204,7 @@ h1 {
   color: #050505;
   -ms-word-wrap: break-word;
   word-wrap: break-word;
+  font-family: Cream;
 }
 .map {
   margin-bottom: 55px;
@@ -4912,7 +4913,7 @@ input {
 }
 .bottomMenu li a {
   color:#fff;
-  font-family: Agorasans;
+  font-family: Cream;
   font-size: 16px; 
   font-weight: 300;
   line-height:15px;
@@ -4946,7 +4947,7 @@ input {
     padding: 8px 32px;
     text-align: center;
     text-decoration: none;
-    font-family: Agorasans; 
+    font-family: Cream; 
     /*font-weight: 600;*/
     display: inline-block;
     font-size: 16px;
@@ -4961,7 +4962,7 @@ input {
     padding: 8px 44px;
     text-align: center;
     text-decoration: none;
-    font-family: Agorasans; 
+    font-family: Cream; 
     /*font-weight: 600;*/
     display: inline-block;
     font-size: 16px;
@@ -4978,5 +4979,11 @@ input {
 @font-face {
     font-family: Agorasansbold;  
     src: url(https://www.ygriega.test/wp-content/themes/wooclean-child/fonts/PFAGORASANSPRO-BOLD.TTF);  
+    font-weight: normal;  
+}
+
+@font-face {
+    font-family: Cream;  
+    src: url(https://www.ygriega.test/wp-content/themes/wooclean-child/fonts/cream_2/cream-DEMO.ttf);  
     font-weight: normal;  
 }
