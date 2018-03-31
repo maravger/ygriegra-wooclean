@@ -36,6 +36,19 @@ function wpse_enqueue_page_template_styles() {
     }
 }
 
+// split content at the more tag and return an array
+function split_content() {
+
+    global $more;
+    $more = true;
+    $content = preg_split('/<span id="more-d+"></span>/i', get_the_content('more'));
+    for($c = 0, $csize = count($content); $c < $csize; $c++) {
+        $content[$c] = apply_filters('the_content', $content[$c]);
+    }
+    return $content;
+
+}
+
 function register_my_menu() {
   register_nav_menu('bottom-menu',__( 'Bottom Menu' ));
 }

@@ -293,7 +293,8 @@ var {
 }
 .wpcf7-form input,
 .wpcf7-form textarea {
-  border: none;
+  /*border: none;*/
+  border: 1px solid;
   border-bottom: 1px solid #e6e6e6;
   background: transparent;
   color: #b2b2b2;
@@ -408,8 +409,6 @@ var {
   display: block;
   margin: 0 auto;
 }
-
-.header.
 
 .header-nav {
   float: left;
@@ -4968,6 +4967,24 @@ input {
     font-size: 16px;
     margin: 4px 2px;
     cursor: pointer;
+}
+
+/*break contact page into columns but keep some stuff together*/
+div.keeptogether {
+    display: inline-block;
+    width: 100%;
+ }
+
+.post-13 {
+    -moz-column-count: 2;
+    -moz-column-gap: 10px;
+    -moz-column-rule: none;
+    -webkit-column-count: 3;
+    -webkit-column-gap: 10px;
+    -webkit-column-rule: none;
+  column-count: 2;
+  column-gap: 100px;
+  column-rule: none;
 }
 
 @font-face {
