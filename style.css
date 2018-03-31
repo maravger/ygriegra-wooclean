@@ -311,12 +311,13 @@ var {
 }
 .wpcf7-form .wpcf7-submit {
   width: auto;
-  background: #000;
+  /*background: #000;*/
+  background: rgb(228, 177, 151);
   border: none;
   font-size: 14px;
   color: #fff;
-  text-transform: uppercase;
-  padding: 0 10px;
+  /*text-transform: uppercase;*/
+  padding: 0 20px;
   height: 35px;
   -webkit-transition: 0.3s linear;
   -moz-transition: 0.3s linear;
