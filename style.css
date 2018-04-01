@@ -825,7 +825,7 @@ var {
 .header.fixed-header {
   /*height: 100px;*/
   height: 90px;
-  padding: 40px 0;
+  padding: 10px 0;
   box-shadow: 0 1px 10px 0 rgb(255, 255, 255);
   /*background-color: #fff;*/
   background-color: rgb(255, 255, 255);
