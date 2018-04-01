@@ -1484,11 +1484,12 @@ ul li .star-rating,
   opacity: 1 !important;
 }
 .single-product .entry-content h1 {
-  font-size: 36px;
+  font-size: 26px;
   color: #090909;
   margin-bottom: 15px;
   font-weight: 300;
   text-transform: capitalize;
+  text-align: center;
 }
 .single-product .shop_attributes {
   border: 0;
@@ -1519,6 +1520,9 @@ ul li .star-rating,
 }
 .single-product .thumbnails {
   padding-top: 1em;
+}
+.products-cats {
+  display: none;
 }
 .single-product .thumbnails a {
   float: left;
@@ -1591,7 +1595,7 @@ ul li .star-rating,
 .single-product .summary {
   margin-top: 50px;
   float: right;
-  width: 48%;
+  width: 38%;
   color: #b2b2b2;
 }
 .single-product .summary p {
@@ -1624,9 +1628,10 @@ ul li .star-rating,
 }
 .single-product .summary .price {
   margin-bottom: 30px;
-  font-size: 36px;
+  font-size: 26px;
   color: #1a1a1a;
   margin-top: 40px;
+  text-align: center;
 }
 .single-product .summary .price del {
   font-size: 26px;
@@ -1687,20 +1692,21 @@ ul li .star-rating,
   cursor: pointer;
   position: relative;
   text-decoration: none;
-  text-transform: uppercase;
+  /*text-transform: capitalize;*/
   overflow: visible;
   padding: 10px 21px;
   z-index: 1;
   font-weight: 400;
   border-radius: 0;
   left: auto;
-  background-color: #000;
+  background-color: rgb(228, 177, 151);
   border: 1px solid #000;
   display: inline-block;
   background-image: none;
   box-shadow: none;
   text-shadow: none;
   outline: none;
+  font-family: Cream; 
 }
 .single-product .summary .cart .single_add_to_cart_button:hover {
   background: #666;
@@ -2121,6 +2127,7 @@ ul li .star-rating,
   content: "\f005\f005\f005\f005\f005";
 }
 .product .product-social {
+  display: none;
   border: none;
   margin-left: 0;
 }
@@ -4526,6 +4533,7 @@ select:before {
 }
 .variations .reset_variations {
   margin-left: 10px;
+  display: none;
 }
 .sku_wrapper span {
   color: #1a1a1a;
