@@ -1718,7 +1718,9 @@ ul li .star-rating,
 .single-product .summary .cart table {
   margin-bottom: 15px;
 }
+/*REMOVE TO MAKE ADDITIONAL TABS REAPPEAR*/
 .single-product .woocommerce-tabs {
+  display: none; #
   clear: both;
   margin-bottom: 85px;
   /*background-color: rgb(210, 201, 211, 0.5);*/
