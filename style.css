@@ -812,7 +812,7 @@ var {
   width: 100%;
   z-index: 1000;
   /*height: 170px;*/
-  height: 160px;
+  height: 170px;
 /*  -webkit-transition: height 0.2s;
   -moz-transition: height 0.2s;
   transition: height 0.2s;
@@ -1628,10 +1628,10 @@ ul li .star-rating,
   margin-top: 24px;
 }
 .single-product .summary .price {
-  margin-bottom: 30px;
-  font-size: 26px;
+  margin-bottom: 20px;
+  font-size: 22px;
   color: #1a1a1a;
-  margin-top: 40px;
+  margin-top: 30px;
   text-align: center;
 }
 .single-product .summary .price del {

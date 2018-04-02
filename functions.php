@@ -62,4 +62,8 @@ function wmpudev_enqueue_icon_stylesheet() {
 }
 add_action( 'wp_enqueue_scripts', 'wmpudev_enqueue_icon_stylesheet' );
 
+// Move WooCommerce price
+// remove_action( 'woocommerce_single_product_summary', 'woocommerce_template_single_price', 25 );
+// add_action( 'woocommerce_single_product_summary', 'woocommerce_template_single_price', 5 );
+
 ?>
