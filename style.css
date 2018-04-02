@@ -700,6 +700,7 @@ var {
   /*margin-top: 170px;*/
   margin-top: 180px;
   /*background-color: rgb(210, 201, 211, 0.5);*/
+  min-height: calc(100vh - 70px);
 }
 .header-search {
   display: inline-block;
@@ -1598,6 +1599,7 @@ ul li .star-rating,
   float: right;
   width: 38%;
   color: #b2b2b2;
+  font-family: Cream !important;
 }
 .single-product .summary p {
   margin-bottom: 15px;
@@ -4762,6 +4764,7 @@ input {
   border-top: 1px solid #383838;
   background-color: rgb(228, 177, 151, 0.83);
     /*background-color: #262626;*/
+  /*height: 500px;*/
 }
 .footer .footer-main {
   /*padding: 32px 0px;*/
@@ -5001,6 +5004,7 @@ div.keeptogether {
   column-gap: 100px;
   column-rule: none;
 }
+
 
 @font-face {
     font-family: Agorasans;  
