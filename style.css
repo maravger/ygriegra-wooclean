@@ -412,7 +412,7 @@ var {
 }
 
 .header-nav {
-  float: left;
+  /*float: left;*/
   /*padding-left: 109px;
   padding-top: 214px;*/
 }
@@ -824,7 +824,7 @@ var {
 }
 .header.fixed-header {
   /*height: 100px;*/
-  height: 90px;
+  height: 70px;
   padding: 10px 0;
   box-shadow: 0 1px 10px 0 rgb(255, 255, 255);
   /*background-color: #fff;*/
