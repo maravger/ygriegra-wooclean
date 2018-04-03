@@ -464,15 +464,20 @@ var {
   font-family: Agorasans; 
   /*text-transform: uppercase;*/
   text-transform: capitalize;
-  -webkit-transition: 0.5s linear;
-  -moz-transition: 0.5s linear;
-  -ms-transition: 0.5s linear;
-  -o-transition: 0.5s linear;
-  transition: 0.5s linear;
+  -webkit-transition: 0.2s linear;
+  -moz-transition: 0.2s linear;
+  -ms-transition: 0.2s linear;
+  -o-transition: 0.2s linear;
+  transition: 0.2s linear;
 }
 .header-nav li a:hover {
-  text-decoration: underline;
-  color: #000000;
+  /*text-decoration: underline;*/
+  /*color: #000000;*/
+  color: rgb(228, 177, 151);
+  text-decoration: none !important;
+}
+.header-nav li.current_page_item a {
+  color: rgb(228, 177, 151) !important;
 }
 .header-nav li:hover .sub-menu {
   display: block;
@@ -4945,7 +4950,7 @@ input {
 }
 .bottomMenu li a:hover { 
   /*color:#ccc; */
-  text-decoration:underline;
+  /*text-decoration:underline;*/
 }
 .bottomMenu li:last-child > a {
   border-right: none;
