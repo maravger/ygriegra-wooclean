@@ -176,7 +176,8 @@ h2 {
   color: #000;
   text-transform: uppercase;
   margin-bottom: 25px;
-  font-family: Cream;
+  /*font-family: Cream;*/
+  font-family: Agorasans; 
 }
 p {
   font-size: 16px;
@@ -186,11 +187,13 @@ p {
   margin-bottom: 15px;
   -ms-word-wrap: break-word;
   word-wrap: break-word;
-  font-family: Cream;
+  /*font-family: Cream;*/
+  font-family: Agorasans; 
 }
 p.whitetext {
   font-size: 24px;
-  font-family: Cream;
+  /*font-family: Cream;*/
+  font-family: Agorasans; 
 }
 a {
   text-decoration: none;
@@ -204,7 +207,7 @@ h1 {
   color: #050505;
   -ms-word-wrap: break-word;
   word-wrap: break-word;
-  font-family: Cream;
+  font-family: Agorasans;
 }
 .map {
   margin-bottom: 55px;
@@ -1588,18 +1591,20 @@ ul li .star-rating,
   margin-bottom: 50px;
 }
 .single-product .images img {
-  margin-top: 30px;
-  width: 100%;
+  /*margin-top: 30px;*/
+  width: 70%;
   height: auto;
   display: block;
   box-shadow: none;
+  margin: 0 auto;
 }
 .single-product .summary {
   margin-top: 50px;
   float: right;
   width: 38%;
   color: #b2b2b2;
-  font-family: Cream !important;
+  font-family: Agorasans; 
+  /*font-family: Cream !important;*/
 }
 .single-product .summary p {
   margin-bottom: 15px;
@@ -4764,7 +4769,6 @@ input {
   border-top: 1px solid #383838;
   background-color: rgb(228, 177, 151, 0.83);
     /*background-color: #262626;*/
-  /*height: 500px;*/
 }
 .footer .footer-main {
   /*padding: 32px 0px;*/
@@ -5004,7 +5008,6 @@ div.keeptogether {
   column-gap: 100px;
   column-rule: none;
 }
-
 
 @font-face {
     font-family: Agorasans;  
