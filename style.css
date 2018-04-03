@@ -1592,11 +1592,12 @@ ul li .star-rating,
 }
 .single-product .images img {
   /*margin-top: 30px;*/
-  width: 70%;
+  width: 75%;
   height: auto;
   display: block;
   box-shadow: none;
   margin: 0 auto;
+  padding-top: 30px;
 }
 .single-product .summary {
   margin-top: 50px;
