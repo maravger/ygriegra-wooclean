@@ -327,6 +327,8 @@ var {
   -ms-transition: 0.3s linear;
   -o-transition: 0.3s linear;
   transition: 0.3s linear;
+  font-family: Cream;
+  border: 1px solid #000;
 }
 .wpcf7-form .wpcf7-submit:hover {
   background: #666;
@@ -1723,6 +1725,11 @@ ul li .star-rating,
   outline: none;
   font-family: Cream; 
   width: 130px;
+  -webkit-transition: 0.3s linear;
+  -moz-transition: 0.3s linear;
+  -ms-transition: 0.3s linear;
+  -o-transition: 0.3s linear;
+  transition: 0.3s linear;
 }
 .single-product .summary .cart .single_add_to_cart_button:hover {
   background: #666;
@@ -4262,7 +4269,7 @@ input.button:hover {
   text-decoration: none;
 }
 .alignleft {
-  margin: 25px 50px 25px 0;
+  /*margin: 25px 50px 25px 0;*/
   float: left;
 }
 .alignright {
