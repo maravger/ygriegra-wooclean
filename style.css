@@ -1235,13 +1235,15 @@ ul li .star-rating,
   border-bottom: 1px solid #ebebeb;
   padding-bottom: 25px;
   letter-spacing: 3px;
+  display: none;
 }
 .sidebar .woocommerce:first-child {
-  border-top: 1px solid #ebebeb;
-  padding-top: 27px;
+  /*border-top: 1px solid #ebebeb;*/
+  /*padding-top: 27px;*/
 }
 .widget_product_categories {
   margin-bottom: 65px;
+  /*text-transform: none !important;*/
 }
 .widget_product_categories .product-categories li {
   border-bottom: 1px solid #ebebeb;
@@ -1249,10 +1251,12 @@ ul li .star-rating,
 .widget_product_categories .product-categories li a {
   font-size: 13px;
   color: #999;
-  text-transform: uppercase;
+  /*text-transform: uppercase;*/
+  text-transform: none !important;
   letter-spacing: 2px;
   padding: 16px 0;
   display: block;
+  font-family: Agorasans;
 }
 .widget_product_categories .product-categories .children {
   margin: 0;
@@ -5023,6 +5027,18 @@ div.keeptogether {
   column-count: 2;
   column-gap: 100px;
   column-rule: none;
+}
+
+.sidebar {
+  float: left;
+  position: relative;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.shop {
+  width: 80% !important;
 }
 
 @font-face {
