@@ -604,7 +604,7 @@ var {
   -ms-transition: 0.3s linear;
   -o-transition: 0.3s linear;
   transition: 0.3s linear;
-  padding: 27px 25px 30px;
+  padding: 27px 25px 15px;
   width: 260px;
   position: absolute;
   top: 65px;
@@ -773,6 +773,7 @@ var {
   height: 35px;
   float: left;
   margin-right: -4px;
+  font-family: Agorasans;
 }
 .header-search form input[type="submit"] {
   background: url(img/icon-search.png) center center no-repeat;
@@ -927,7 +928,7 @@ var {
 .products li {
   vertical-align: top;
   display: inline-block;
-  width: 32.9%;
+  width: 49%;
   margin-bottom: 10px;
   position: relative;
   padding: 0 15px;
@@ -997,6 +998,7 @@ var {
 .products li img {
   float: left;
   display: inline-block;
+  width: 100%;
 }
 .products li h3 {
   font-size: 18px;
@@ -1246,7 +1248,7 @@ ul li .star-rating,
   /*text-transform: none !important;*/
 }
 .widget_product_categories .product-categories li {
-  border-bottom: 1px solid #ebebeb;
+  /*border-bottom: 1px solid #ebebeb;*/
 }
 .widget_product_categories .product-categories li a {
   font-size: 13px;
@@ -1254,7 +1256,7 @@ ul li .star-rating,
   /*text-transform: uppercase;*/
   text-transform: none !important;
   letter-spacing: 2px;
-  padding: 16px 0;
+  padding: 10px 0;
   display: block;
   font-family: Agorasans;
 }
@@ -3321,7 +3323,7 @@ article.post .entry-inside a {
 .widget-title {
   font-size: 18px;
   color: #1a1a1a;
-  text-transform: uppercase;
+  /*text-transform: uppercase;*/
   border-bottom: 1px solid #ebebeb;
   padding-bottom: 25px;
   letter-spacing: 3px;
@@ -3537,6 +3539,7 @@ a:hover {
   padding-top: 0;
   border-bottom: 1px solid #ebebeb;
   padding: 14px 0;
+  font-family: Agorasans;
 }
 .widget_shopping_cart .product_list_widget li .wp-post-image {
   margin-left: 0;
@@ -3557,7 +3560,8 @@ a:hover {
   display: block;
   font-weight: 400;
   line-height: 20px;
-  text-transform: uppercase;
+  /*text-transform: uppercase;*/
+  font-family: Agorasans;
   font-size: 15px;
   color: #000;
   padding-right: 10px;
@@ -3592,6 +3596,7 @@ a:hover {
   padding-right: 1.1em;
   display: inline-block;
   color: #999;
+  font-family: Agorasans;
 }
 .widget_shopping_cart .product_list_widget .variation {
   padding: 0;
@@ -3620,7 +3625,7 @@ a:hover {
   background-color: #ccc;
   font-size: 14px;
   color: #fff;
-  text-transform: uppercase;
+  /*text-transform: uppercase;*/
   padding: 9px 19px 10px 30px;
   -webkit-transition: 0.3s linear;
   -moz-transition: 0.3s linear;
@@ -4039,7 +4044,7 @@ textarea {
   height: 80px;
 }
 .woocommerce-error {
-  padding: 46px 30px 46px 46px;
+  padding: 23px 30px 23px 46px;
   margin: 0 0 2em !important;
   position: relative;
   background-color: #f7f6f7;
@@ -4071,17 +4076,18 @@ textarea {
   clear: both;
 }
 .woocommerce-message {
-  padding: 46px 30px 46px 46px;
-  margin: 0 0 2em;
+  padding: 23px 30px 23px 46px;
+  /*margin: 0 0 2em;*/
   position: relative;
-  background-color: #f7f6f7;
+  background-color: rgb(228, 177, 151, 0.2);
   color: #515151;
   color: #999;
   font-size: 14px;
-  text-transform: uppercase;
+  /*text-transform: uppercase;*/
   width: auto;
   letter-spacing: 1px;
   word-wrap: break-word;
+  font-family: Agorasans;
 }
 .woocommerce-message:before {
   content: "\f05a";
@@ -4101,7 +4107,7 @@ textarea {
   background-color: #000;
   padding: 10px 15px;
   font-size: 16px;
-  top: 35px;
+  top: 12px;
   -webkit-transition: 0.5s linear;
   -moz-transition: 0.5s linear;
   -ms-transition: 0.5s linear;
@@ -4117,12 +4123,12 @@ textarea {
   clear: both;
 }
 .woocommerce-info {
-  padding: 46px 30px;
+  padding: 23px 30px;
   margin: 0 0 2em;
   background-color: #f7f6f7;
   color: #999;
   font-size: 14px;
-  text-transform: uppercase;
+  /*text-transform: uppercase;*/
   list-style: none;
   width: auto;
   word-wrap: break-word;
