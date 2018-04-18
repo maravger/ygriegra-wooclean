@@ -2196,6 +2196,7 @@ ul li .star-rating,
 }
 .woocommerce-cart .shop_table {
   margin-bottom: 40px;
+  font-family: Agorasans;
 }
 .woocommerce-cart .shop_table .product-name {
   width: 540px;
@@ -2238,10 +2239,11 @@ ul li .star-rating,
 .shop_table thead th {
   font-size: 14px;
   color: #b2b2b2;
-  text-transform: uppercase;
+  /*text-transform: uppercase;*/
   letter-spacing: 2px;
   padding: 14px 12px;
   vertical-align: middle;
+  font-family: Agorasans
 }
 .shop_table thead th.product-thumbnail {
   display: none;
@@ -2278,13 +2280,15 @@ ul li .star-rating,
 }
 .shop_table .product-name a {
   color: #000;
-  text-transform: uppercase;
+  /*text-transform: uppercase;*/
   letter-spacing: 1px;
   font-size: 20px;
+  font-family: Agorasans;
 }
 .shop_table .product-price span,
 .shop_table .product-subtotal span {
   font-size: 18px;
+  font-family: Agorasans;
 }
 .shop_table .product-price,
 .shop_table .product-quantity {
@@ -2434,6 +2438,8 @@ ul li .star-rating,
 .cart_totals {
   border: 3px solid #4d4d4d;
   padding: 40px;
+  width: 50%;
+  margin: 0 auto;
 }
 .cart_totals h2 {
   font-size: 20px;
@@ -2511,12 +2517,13 @@ ul li .star-rating,
   text-align: center;
   background-color: #000;
   color: white;
-  text-transform: uppercase;
+  /*text-transform: uppercase;*/
   -webkit-transition: 0.5s linear;
   -moz-transition: 0.5s linear;
   -ms-transition: 0.5s linear;
   -o-transition: 0.5s linear;
   transition: 0.5s linear;
+  font-family: Agorasans;
 }
 .wc-proceed-to-checkout a:hover {
   background: #666;
@@ -2574,6 +2581,7 @@ ul li .star-rating,
   padding: 0 15px;
   background-color: #b3b3b3;
   font-size: 14px;
+  display: none;
 }
 .update-cart .button:hover {
   background-color: #000;
@@ -5045,6 +5053,18 @@ div.keeptogether {
 
 .shop {
   width: 80% !important;
+}
+
+.product-quantity {
+  display: none;
+}
+
+.product-subtotal {
+  display: none;
+}
+
+.coupon {
+  display: none;
 }
 
 @font-face {
