@@ -3831,7 +3831,7 @@ a:hover {
   margin-bottom: 30px;
   font-size: 20px;
   color: #000;
-  text-transform: uppercase;
+  /*text-transform: uppercase;*/
 }
 .woocommerce-checkout .col2-set {
   width: 66%;
@@ -3842,6 +3842,7 @@ a:hover {
   float: right;
   border: 3px solid #4d4d4d;
   padding: 45px 35px;
+  font-family: Agorasans;
 }
 .woocommerce-checkout .woocommerce-billing-fields {
   padding-right: 20px;
@@ -3905,6 +3906,7 @@ a:hover {
 .woocommerce-checkout .woocommerce-checkout-payment .form-row .button {
   width: 100%;
   text-align: center;
+  height: 30px;
 }
 .woocommerce-checkout .terms .checkbox {
   width: auto;
@@ -3984,7 +3986,7 @@ a:hover {
   vertical-align: middle;
 }
 .woocommerce-checkout-review-order table thead {
-  text-transform: uppercase;
+  /*text-transform: uppercase;*/
 }
 .woocommerce-checkout-review-order .cart-subtotal td,
 .woocommerce-checkout-review-order .order-total td {
@@ -5064,6 +5066,10 @@ div.keeptogether {
 }
 
 .coupon {
+  display: none;
+}
+
+#billing_company_field {
   display: none;
 }
 
