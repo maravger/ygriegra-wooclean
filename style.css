@@ -4089,7 +4089,7 @@ textarea {
   padding: 23px 30px 23px 46px;
   /*margin: 0 0 2em;*/
   position: relative;
-  background-color: rgb(228, 177, 151, 0.2);
+  background-color: rgba(228, 177, 151, 0.2);
   color: #515151;
   color: #999;
   font-size: 14px;
@@ -4803,7 +4803,7 @@ input {
 }
 .footer {
   border-top: 1px solid #383838;
-  background-color: rgb(228, 177, 151, 0.83);
+  background-color: rgba(228, 177, 151, 0.83);
     /*background-color: #262626;*/
 }
 .footer .footer-main {
@@ -5075,18 +5075,19 @@ div.keeptogether {
 
 @font-face {
     font-family: Agorasans;  
-    src: url(https://www.ygriega.test/wp-content/themes/wooclean-child/fonts/PFAGORASANSPRO-THIN.TTF);  
+    /*src: url(https://awomen.co/wp-content/themes/wooclean-child/fonts/PFAGORASANSPRO-THIN.TTF);  */
+    src: url('./fonts/PFAGORASANSPRO-THIN.TTF');
     font-weight: normal;  
 }
 
 @font-face {
     font-family: Agorasansbold;  
-    src: url(https://www.ygriega.test/wp-content/themes/wooclean-child/fonts/PFAGORASANSPRO-BOLD.TTF);  
+    src: url(https://awomen.co/wp-content/themes/wooclean-child/fonts/PFAGORASANSPRO-BOLD.TTF);  
     font-weight: normal;  
 }
 
 @font-face {
     font-family: Cream;  
-    src: url(https://www.ygriega.test/wp-content/themes/wooclean-child/fonts/cream_2/cream-DEMO.ttf);  
+    src: url(https://awomen.co/wp-content/themes/wooclean-child/fonts/cream_2/cream-DEMO.ttf);  
     font-weight: normal;  
 }
