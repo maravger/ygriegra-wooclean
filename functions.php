@@ -66,4 +66,8 @@ add_action( 'wp_enqueue_scripts', 'wmpudev_enqueue_icon_stylesheet' );
 // remove_action( 'woocommerce_single_product_summary', 'woocommerce_template_single_price', 25 );
 // add_action( 'woocommerce_single_product_summary', 'woocommerce_template_single_price', 5 );
 
+@ini_set( 'upload_max_size' , '64M' );
+@ini_set( 'post_max_size', '64M');
+@ini_set( 'max_execution_time', '300' );
+
 ?>
