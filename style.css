@@ -334,6 +334,21 @@ var {
   background: #666;
   border-color: #666;
 }
+.wpcf7-response-output {
+  padding: 0.7em 5em !important;
+  margin: 0 0 2em;
+  background-color: rgba(228, 177, 151, 0.2);
+  color: #999;
+  font-size: 16px;
+  /*text-transform: uppercase;*/
+  list-style: none;
+  width: auto;
+  word-wrap: break-word;
+  letter-spacing: 1px;
+  font-family: Agorasans;
+  border: none !important;
+}
+
 .entry-content > ol,
 .entry-content > ul {
   margin: 0 0 20px 45px;
@@ -683,7 +698,8 @@ var {
 }
 .header-cart .widget_shopping_cart .buttons a {
   display: inline-block;
-  background-color: #454545;
+  /*background-color: #454545;*/
+  background-color: rgb(228, 177, 151);
   letter-spacing: 1px;
   padding: 6px 19px 6px 30px;
 }
