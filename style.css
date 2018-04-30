@@ -328,7 +328,7 @@ var {
   -o-transition: 0.3s linear;
   transition: 0.3s linear;
   font-family: Cream;
-  /*border: 1px solid #000;*/
+  border: 1px solid rgb(228, 177, 151);
 }
 .wpcf7-form .wpcf7-submit:hover {
   background: #666;
@@ -368,7 +368,7 @@ var {
 }
 .entry-content ol,
 .entry-content ul {
-  margin: 0 0 30px 0px;
+  margin: 0 0 30px 0px !important;
 }
 /*=====  End of Style Global  ======*/
 /*=======================================
@@ -1726,7 +1726,7 @@ ul li .star-rating,
   border-radius: 0;
   left: auto;
   background-color: rgb(228, 177, 151);
-  border: 1px solid #fff;
+  border: 1px solid rgb(228, 177, 151);
   display: block;
   background-image: none;
   box-shadow: none;
@@ -2515,7 +2515,7 @@ ul li .star-rating,
   font-size: 18px;
   padding: 11px 0;
   text-align: center;
-  background-color: #000;
+  background-color: rgba(228, 177, 151, 0.83);
   color: white;
   /*text-transform: uppercase;*/
   -webkit-transition: 0.5s linear;
@@ -3906,7 +3906,26 @@ a:hover {
 .woocommerce-checkout .woocommerce-checkout-payment .form-row .button {
   width: 100%;
   text-align: center;
-  height: 30px;
+  padding: 11px 0;
+  background-color: rgba(228, 177, 151, 0.83);
+  color: white;
+  display: inline-block;
+  border: 1px;
+  cursor: pointer;
+  font-size: 18px;
+  -webkit-transition: 0.5s linear;
+  -moz-transition: 0.5s linear;
+  -ms-transition: 0.5s linear;
+  -o-transition: 0.5s linear;
+  transition: 0.5s linear;
+  font-family: Agorasans;
+}
+
+.woocommerce-checkout .woocommerce-checkout-payment .form-row .button:hover{
+  background: #666;
+  border-color: #666;
+  text-decoration: none;
+  color: #fff;
 }
 .woocommerce-checkout .terms .checkbox {
   width: auto;
@@ -4100,7 +4119,7 @@ textarea {
   font-family: Agorasans;
 }
 .woocommerce-message:before {
-  content: "\f05a";
+  /*content: "\f05a";*/
   color: #8fae1b;
   font-family: FontAwesome;
   display: inline-block;
@@ -4114,7 +4133,8 @@ textarea {
   right: 20px;
   color: #fff;
   display: inline-block;
-  background-color: #000;
+  /*background-color: #000;*/
+  background-color: rgba(228, 177, 151, 0.83);
   padding: 10px 15px;
   font-size: 16px;
   top: 12px;
@@ -4125,19 +4145,20 @@ textarea {
   transition: 0.5s linear;
 }
 .woocommerce-message a:hover {
-  color: #fff;
-  opacity: 0.6;
+  background: #666;
+  border-color: #666;
+  /*opacity: 0.6;*/
   text-decoration: none;
 }
 .woocommerce-message:after {
   clear: both;
 }
 .woocommerce-info {
-  padding: 23px 30px;
+  padding: 10px 15px;
   margin: 0 0 2em;
-  background-color: #f7f6f7;
+  background-color: rgba(228, 177, 151, 0.2);
   color: #999;
-  font-size: 14px;
+  font-size: 16px;
   /*text-transform: uppercase;*/
   list-style: none;
   width: auto;
