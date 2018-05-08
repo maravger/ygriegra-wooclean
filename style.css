@@ -207,7 +207,7 @@ h1 {
   color: #050505;
   -ms-word-wrap: break-word;
   word-wrap: break-word;
-  font-family: Agorasans;
+  font-family: Cream;
 }
 .map {
   margin-bottom: 55px;
@@ -5112,9 +5112,11 @@ div.keeptogether {
   display: none;
 }
 
+/*Remove uncategorized*/
 .cat-item-17 {
   display: none;
 }
+
 @font-face {
     font-family: Agorasans;  
     /*src: url(https://awomen.co/wp-content/themes/wooclean-child/fonts/PFAGORASANSPRO-THIN.TTF);  */
