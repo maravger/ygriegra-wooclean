@@ -5135,3 +5135,43 @@ div.keeptogether {
     src: url(https://awomen.co/wp-content/themes/wooclean-child/fonts/cream_2/cream-DEMO.ttf);  
     font-weight: normal;  
 }
+
+@media only screen and (max-width: 2000px) {
+    figure.alignleft, img.alignleft, figure.alignright, img.alignright {
+        float: none;
+    }
+    p.sensitive {
+    	padding-top: 0px !important;
+    }
+    p.sensitive2 {
+    	padding-top: 30px !important;
+		padding-bottom: 0px !important;
+		text-align: left !important;
+    }
+    div.righty {
+    	padding-bottom: 0px !important;
+    }
+    div.lefty {
+    	padding-top: 40px !important;
+    	padding-bottom: 0px !important;
+    }
+}
+
+.righty {
+	padding-top: 80px;
+	padding-bottom: 196px;
+}
+
+.righty p {
+	padding-top: 80px;
+}
+
+.lefty {
+	padding-top: 80px;
+	padding-bottom: 280px;
+}
+
+p.sensitive2 {
+	padding-top: 230px;
+	padding-bottom: 50px;
+}
