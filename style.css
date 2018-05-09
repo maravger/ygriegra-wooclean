@@ -5145,7 +5145,7 @@ div.keeptogether {
     }
     p.sensitive2 {
     	padding-top: 30px !important;
-		padding-bottom: 0px !important;
+		padding-bottom: 40px !important;
 		text-align: left !important;
     }
     div.righty {
@@ -5174,6 +5174,11 @@ div.keeptogether {
 p.sensitive2 {
 	padding-top: 230px;
 	padding-bottom: 50px;
+	font-family: Agorasansbold;
+}
+
+p.sensitive3 {
+	font-family: Agorasansbold;
 }
 
 .site-logo { pointer-events: none !important; }
