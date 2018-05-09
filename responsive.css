@@ -416,11 +416,11 @@
     transform: translate(-50%, -50%) scale(0.5) !important;
   }
   .header-nav {
-    background-color: #353535;
+    background-color: rgba(228, 177, 151, 0.83);
     float: none;
     display: inline-block;
     width: 100%;
-    padding: 15px 0;
+    padding: 5px 0;
   }
   .header-nav li {
     padding: 11px 0;
@@ -554,7 +554,8 @@
   }
   .header-search .search-inside form {
     width: 380px;
-    padding: 35px 45px;
+    padding: 35px 49px;
+    height: 100px;
   }
   .header-search .search-inside form input[type="text"] {
     width: 250px!important;
