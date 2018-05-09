@@ -727,7 +727,7 @@ var {
   /*margin-top: 170px;*/
   margin-top: 180px;
   /*background-color: rgb(210, 201, 211, 0.5);*/
-  min-height: calc(100vh - 70px);
+  /*min-height: calc(100vh - 70px);*/
 }
 .header-search {
   display: inline-block;
@@ -5175,3 +5175,5 @@ p.sensitive2 {
 	padding-top: 230px;
 	padding-bottom: 50px;
 }
+
+.site-logo { pointer-events: none !important; }
